@@ -1,0 +1,14 @@
+{
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "cmake.preferredGenerators": [
+        "Visual Studio 16 2019", "Xcode"
+    ],
+    "cmake.configureArgs": [
+        "CMAKE_INSTALL_PREFIX:PATH=${workspaceFolder}/modules",
+        "CMAKE_OSX_ARCHITECTURES:STRING=x86_64"
+    ],
+    "C_Cpp.loggingLevel": "Debug",
+    "files.associations": {
+        "iostream": "cpp"
+    },
+}
