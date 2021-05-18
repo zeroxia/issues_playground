@@ -1,0 +1,72 @@
+{
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "workbench.colorTheme": "Default Light+",
+    "workbench.editorAssociations": [
+      {
+        "viewType": "jupyter.notebook.ipynb",
+        "filenamePattern": "*.ipynb"
+      }
+    ],
+    "editor.renderWhitespace": "all",
+    "editor.autoClosingBrackets": "languageDefined",
+    "editor.fontFamily": "'Cascadia Mono', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": false,
+    "editor.fontSize": 15,
+    // "output.smartScroll.enabled": true,
+    "python.venvPath": "C:/venv",
+    "vim.useSystemClipboard": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [ "c", "c" ],
+            "after": [ "d", "d", "g", "k", "o" ]
+        },
+        // {
+        //     "before": [ "S" ],
+        //     "after": [ "d", "d", "g", "k", "o" ]
+        // },
+        {
+          "before": [ "<leader>", "m" ],
+          "commands": [ "bookmarks.toggle" ]
+        },
+        {
+          "before": [ "<leader>", "M" ],
+          "commands": [ "bookmarks.toggleLabeled" ]
+        },
+        {
+          "before": [ "<leader>", "b" ],
+          "commands": [ "bookmarks.list" ]
+        }
+    ],
+    "vim.handleKeys": {
+      // "<C-S-6>": true,
+      // "<C-6>": true,
+      // "<C-^>": true,
+      "<C-k>": false,
+    },
+    "bookmarks.sideBar.expanded": true,
+    "clang-format.executable": "C:/LLVM/bin/clang-format.exe",
+    "[cpp]": {
+      "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "plantuml.exportSubFolder": false,
+    "plantuml.render": "PlantUMLServer",
+    "plantuml.server": "http://172.16.60.140:8090",
+    "cmake.mingwSearchDirs": [
+      "C:\\msys64\\mingw64"
+    ],
+    "cmake.preferredGenerators": [
+      "Visual Studio 16 2019",
+      "Visual Studio 14 2015",
+      "Xcode",
+      "MinGW Makefiles",
+    ],
+    "cmake.configureOnOpen": false,
+    "cmake.buildBeforeRun": false,
+    "cmake.platform": "x64",
+    "cmake.configureOnEdit": false,
+    "C_Cpp.loggingLevel": "Warning",
+    "C_Cpp.default.intelliSenseMode": "msvc-x64",
+    "C_Cpp.vcFormat.indent.namespaceContents": false,
+    "C_Cpp.clang_format_fallbackStyle": "LLVM",
+}

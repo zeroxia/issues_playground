@@ -2,7 +2,6 @@
 
 namespace playground
 {
-
 int playFunc();
 
 }

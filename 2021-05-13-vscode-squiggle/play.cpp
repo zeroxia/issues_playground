@@ -2,10 +2,9 @@
 
 namespace playground
 {
-
 int playFunc()
 {
     return 0xcece;
 }
 
-}
+}  // namespace playground
